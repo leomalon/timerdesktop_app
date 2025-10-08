@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koi Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container handwrite">
+        <!-- Vista de configuración inicial -->
+        <div class="setup-view">
+            <img src="assets/flowers.png" alt="Sakura" class="sakura-img">
+            <h1>Timer</h1>
+            <div class="controls-timer">
+                <div class="timer-box">
+                    <div class="timer-value">
+                        <span id="minutes">00</span>
+                        <span class="min-label">min</span>
+                    </div>
+                </div>
+                <div class="arrow-controls">
+                    <button id="arrowUp" class="arrow-btn">
+                        <span class="arrow-icon">&#9650;</span>
+                    </button>
+                    <button id="arrowDown" class="arrow-btn">
+                        <span class="arrow-icon">&#9660;</span>
+                    </button>
+                </div>
+        
+            </div>
+            <div class="controls">
+                <button id="startBtn" class="start-btn handwrite">Iniciar</button>
+            </div>
+            <div class="status">
+                <p id="statusText">Configura tu tiempo</p>
+            </div>
+        </div>
+        <!-- Vista de cuenta regresiva -->
+        <div class="countdown-view" style="display: none; position: relative;">
+            <img src="assets/flowers.png" alt="Sakura" class="sakura-img-koi">
+            <img src="assets/desactivar.png" alt="Desactivar sonido" id="muteBgSound" class="mute-bg-sound" title="Desactivar sonido de fondo">
+            <div class="circle-timer">
+                <img src="assets/koi2.png" alt="Koi 1" class="koi koi2">
+                <img src="assets/koi1.png" alt="Koi 2" class="koi koi1">
+                <div class="circle-content">
+                    <span id="countdownTime" class="countdown-time">00 min</span>
+                    <div class="countdown-controls">
+                        <button id="pauseBtn" class="icon-btn">
+                            <img src="assets/pause.png" alt="Pausar" class="icon-img">
+                        </button>
+                        <button id="resetBtn" class="icon-btn">
+                            <img src="assets/restart.png" alt="Reiniciar" class="icon-img">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html> 
