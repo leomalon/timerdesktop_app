@@ -1,7 +1,7 @@
 # 🐟 Koi Timer — Aplicación Pomodoro de Escritorio
 
 **Koi Timer** es una aplicación de escritorio ligera desarrollada con **Electron** y **JavaScript**, inspirada en la técnica Pomodoro.  
-Su objetivo es ayudarte a mantener la concentración con una interfaz minimalista, animaciones suaves de peces koi y sonidos relajantes.
+Su objetivo es ayudarte a mantener la concentración con una interfaz minimalista, animaciones suaves de peces koi y música relajante.
 
 ---
 
@@ -9,7 +9,7 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 
 - 🎯 **Ciclos Pomodoro automáticos** — enfócate y descansa en intervalos programados  
 - 🐠 **Animación de peces koi** que nadan alrededor del temporizador  
-- 🔊 **Música de piano de fondo** con opción para silenciarlos  
+- 🔊 **Música de piano de fondo** con opción para silenciarla  
 - ⏯️ Controles de pausa, reinicio y reanudación  
 - 🪄 **Modo compacto** para mantener la app siempre visible  
 - 🎨 Interfaz limpia y sin distracciones  
@@ -19,12 +19,17 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 
 ## 🖥️ Vista previa
 
-<img width="472" height="477" alt="image" src="https://github.com/user-attachments/assets/654d6753-cd0e-4612-a82f-cf0a2e37fc89" />
+<img width="472" height="477" alt="Koi Timer" src="https://github.com/user-attachments/assets/654d6753-cd0e-4612-a82f-cf0a2e37fc89" />
 
-🚀 Instalación y uso
-1. Clona el repositorio/n
-    git clone https://github.com/<tu-usuario>/timerdesktop_app.git
-    cd timerdesktop_app
+---
+
+## 🚀 Instalación y uso
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/<tu-usuario>/timerdesktop_app.git
+   cd timerdesktop_app
+
 2. Instala las dependencias
     npm install
 3. Ejecuta la aplicación en modo desarrollo:
