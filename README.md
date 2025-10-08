@@ -27,7 +27,7 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/<tu-usuario>/timerdesktop_app.git
+   git clone https://github.com/leomalon/timerdesktop_app.git
    cd timerdesktop_app
 
 2. Instala las dependencias
@@ -54,7 +54,7 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 └── .gitignore
 ```
 
-##🪶 Tecnologías utilizadas
+## 🪶 Tecnologías utilizadas
 ```plaintext
 - Electron — para crear la aplicación de escritorio
 
@@ -62,7 +62,7 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 
 - JavaScript puro — para la lógica del temporizador y las animaciones
 ```
-##💡 Autor
+## 💡 Autor
 ```plaintext
 Desarrollado por Ronald L. Malón Bazán
 ```
