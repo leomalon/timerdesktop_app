@@ -31,9 +31,11 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
    cd timerdesktop_app
 
 2. Instala las dependencias
-    npm install
-3. Ejecuta la aplicación en modo desarrollo:
-    npm start
+   ```bash
+   npm install
+4. Ejecuta la aplicación en modo desarrollo:
+   ```bash
+   npm start
 
 ## 🧩 Estructura del proyecto
 ```plaintext
@@ -50,15 +52,17 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 ├── style.css          # Estilos del diseño
 ├── package.json
 └── .gitignore
-
+```
 
 ##🪶 Tecnologías utilizadas
+```plaintext
 - Electron — para crear la aplicación de escritorio
 
 - HTML5 + CSS3 — para la interfaz y estilos
 
 - JavaScript puro — para la lógica del temporizador y las animaciones
-
+```
 ##💡 Autor
-
+```plaintext
 Desarrollado por Ronald L. Malón Bazán
+```
