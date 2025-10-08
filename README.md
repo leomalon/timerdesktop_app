@@ -35,7 +35,8 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 3. Ejecuta la aplicación en modo desarrollo:
     npm start
 
-🧩 Estructura del proyecto
+## 🧩 Estructura del proyecto
+```plaintext
 .
 ├── assets/
 │   ├── icon.ico
@@ -50,13 +51,14 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 ├── package.json
 └── .gitignore
 
-🪶 Tecnologías utilizadas
+
+##🪶 Tecnologías utilizadas
 - Electron — para crear la aplicación de escritorio
 
 - HTML5 + CSS3 — para la interfaz y estilos
 
 - JavaScript puro — para la lógica del temporizador y las animaciones
 
-💡 Autor
+##💡 Autor
 
 Desarrollado por Ronald L. Malón Bazán
