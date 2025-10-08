@@ -22,7 +22,7 @@ Su objetivo es ayudarte a mantener la concentración con una interfaz minimalist
 <img width="472" height="477" alt="image" src="https://github.com/user-attachments/assets/654d6753-cd0e-4612-a82f-cf0a2e37fc89" />
 
 🚀 Instalación y uso
-1. Clona el repositorio
+1. Clona el repositorio/n
     git clone https://github.com/<tu-usuario>/timerdesktop_app.git
     cd timerdesktop_app
 2. Instala las dependencias
